@@ -1,4 +1,4 @@
-# Minjila Compre School
+# Minjila Comprehensive School
 
 A command-line school management system built in Python. Practice project for
 learning file I/O, SQLite, modular code organization, and testing.
