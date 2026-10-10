@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minjila-comprehensive-school"
+version = "0.1.0"
+description = "Secure login and SQLite database architecture for Minjila Comprehensive School"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Minjila Developer" }
+]
+dependencies = [
+    "Flask>=3.0.0",
+    "SQLAlchemy>=2.0.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["tools*", "tests*"]
